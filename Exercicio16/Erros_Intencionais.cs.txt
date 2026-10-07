@@ -1,0 +1,27 @@
+// Arquivo propositalmente errado para a atividade de identificação e correção.
+// Não compile este arquivo. O Program.cs contém a versão corrigida.
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Nome: ");
+        string nome = Console.ReadLine();
+
+        Console.Write("Idade: ");
+        string idade = Console.ReadLine(); // tipo inadequado para uso numérico
+
+        Console.Write("Cidade: ");
+        string cidade = Console.ReadLine();
+
+        Console.Write("Altura: ");
+        int altura = double.Parse(Console.ReadLine()); // tipos incompatíveis
+
+        Console.WriteLine("Nome: " + Nome); // variável com nome diferente
+        Console.WriteLine("Idade: " + idade);
+        Console.WriteLine("Cidade: " + cidade);
+        Console.WriteLine("Altura: " + altura);
+    }
+}
